@@ -1,2 +1,0 @@
-# Ensurance
-Insurance made easy
