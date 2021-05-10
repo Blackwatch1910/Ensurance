@@ -62,7 +62,10 @@ class Upload extends React.Component {
           <button onClick={this.onFileUpload}>Upload!</button>
         </div>
         {this.fileData()}
-        <footer><Link to="/admin">Admin</Link></footer>
+        <footer>
+          <Link to="/admin">Admin</Link>
+          <Link to="/user">user</Link>
+        </footer>
       </div>
     );
   }

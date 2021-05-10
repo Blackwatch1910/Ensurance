@@ -6,6 +6,7 @@ import Upload from "./Upload";
 import Admin from "./admin/Admin";
 import Dashboard from './components/Dashboard';
 import Preferences from './components/Preferences';
+import Graph from './components/Graph';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,9 @@ ReactDOM.render(
         </Route>
         <Route path="/admin/preferences">
           <Preferences />
+        </Route>
+        <Route path="/user">
+          <Graph />
         </Route>
       </Switch>
     </Router>
