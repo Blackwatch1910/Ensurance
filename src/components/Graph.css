@@ -5,3 +5,12 @@
 .btn {
     margin-top: 20%;
 }
+
+.indicator-container {
+    display: flex;
+    margin-top: 5rem;
+}
+
+table {
+    margin: 5% auto;
+}
